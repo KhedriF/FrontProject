@@ -1,2 +1,3 @@
 # Kimia Project
-My Projects and Homeworks are here 
+My Projects incude HTML5, CSS3.
+It is responsive.

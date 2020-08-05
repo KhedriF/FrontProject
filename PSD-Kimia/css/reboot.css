@@ -1,0 +1,8 @@
+@font-face {
+    font-family: MyriadArabic;
+    src: url("../fonts/Myriad Arabic Regular.ttf");
+}
+*{
+    margin: 0;
+    padding: 0;
+}

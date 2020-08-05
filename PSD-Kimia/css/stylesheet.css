@@ -1,0 +1,3825 @@
+@import "reboot.css";
+@media (min-width: 1200px){
+    section.container{
+        width: 100%;
+    }
+    /********************Start TopNavigation********************/
+    section.container section.TopNavigation{
+        width: 100%;
+        height: 62px;
+        background-color: #02918c;
+    }
+    section.container section.TopNavigation nav{
+        width: inherit;
+        height: inherit;
+    }
+    section.container section.TopNavigation nav ul{
+        width: inherit;
+        height: inherit;
+    }
+    section.container section.TopNavigation nav>ul>li{
+        list-style: none;
+    }
+    section.container section.TopNavigation nav>ul>li:nth-child(1){
+        width: 30%;
+        height: inherit;
+        float: right;
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 50px;
+        font-weight: bold;
+        font-family: "MyriadArabic";
+        text-align: center;
+        box-sizing: border-box;
+    }
+
+    section.container section.TopNavigation nav>ul>li:nth-child(2){
+        width: 70%;
+        height: inherit;
+        float: left;
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: "MyriadArabic";
+        line-height: 40px;
+        box-sizing: border-box;
+    }
+    section.container section.TopNavigation nav>ul>li>ul{
+        width: 100%;
+        height: inherit;
+        display: flex;
+        direction: rtl;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        list-style: none;
+        justify-content: flex-start;
+    }
+    section.container section.TopNavigation nav>ul>li>ul>li {
+        width: 150px;
+        height: inherit;
+        text-align: center;
+    }
+    section.container section.TopNavigation nav>ul>li>ul>li>a{
+        width: inherit;
+        height: inherit;
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: "MyriadArabic";
+        text-align: center;
+
+    }
+    /********************End TopNavigation********************/
+
+    /********************Make MainHeader********************/
+    section.container section.MainHeader{
+        width: 100%;
+        height: 730px;
+        background: url("../images/Image01.jpg") center center no-repeat fixed;
+        display: flex;
+        flex-flow: row nowrap;
+        background-size: cover;
+        justify-content: center;
+        align-items: center;
+
+    }
+    /********************End MainHeader********************/
+    /********************Make MainText********************/
+    section.container section.MainHeader section.MainText{
+        width: 730px;
+        height: 315px;
+        box-sizing: border-box;
+    }
+    /********************End MainText********************/
+
+    /********************Make h1********************/
+    section.container section.MainHeader section.MainText h1{
+        text-align: center;
+        font-size: 35px;
+        font-weight: bold;
+        font-family: "MyriadArabic";
+        color: #ffffff;
+        margin-bottom: 100px;
+
+    }
+    /********************End h1********************/
+
+
+    /********************Make p********************/
+    section.container section.MainHeader section.MainText p{
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    /********************End p********************/
+
+    /********************Make a********************/
+    section.container section.MainHeader section.MainText a{
+        display: block;
+        width: 200px;
+        height: 50px;
+        text-align: center;
+        color: #000000;
+        text-decoration: none;
+        font-size: 35px;
+        font-weight: bold;
+        font-family: "MyriadArabic";
+        margin: 0 auto;
+        background-color: #cfc91d;
+        line-height: 50px;
+        border-radius: 5px;
+
+    }
+    /********************End a********************/
+
+    /******************** Make About*********************/
+section.container section.about{
+    width: 100%;
+    height: 750px;
+    padding: 80px 0 80px 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+
+
+    section.container section.about section:nth-child(1){
+        /*width: 50%;*/
+        margin: 0 auto;
+        text-align: center;
+        text-justify: auto;
+
+    }
+    section.container section.about section:nth-child(1) h1{
+        font-family: "MyriadArabic";
+        font-size: 50px;
+        color: #02918c;
+        margin-bottom: 30px;
+    }
+    section.container section.about section:nth-child(1) p{
+        margin-bottom: 30px;
+    }
+    section.container section.about section:nth-child(2){
+        text-align: center;
+        width: 1000px;
+        /*margin-top: 30px;*/
+        margin-left: calc(50% - 500px);
+        margin-bottom: 80px;
+        font-family: "MyriadArabic";
+        font-size: 16px;
+        color: #abaeb1;
+    }
+
+
+    section.container section.about section:nth-child(2) h4{
+        font-family: "MyriadArabic";
+        font-size: 16px;
+        line-height: 35px;
+        direction: rtl;
+
+    }
+    section.container section.about section:nth-child(3){
+        width: 1000px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: nowrap;
+        color: #7e8287;
+    }
+    section.container section.about section:nth-child(3) section:nth-child(1){
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        padding: 30px 20px 30px 20px;
+        border-left: 1px solid #d9dbdb;
+
+    }
+    section.container section.about section:nth-child(3) section:nth-child(2){
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        padding: 30px 20px 30px 20px;
+        border-left: 1px solid #d9dbdb;
+        margin: 0;
+    }
+    section.container section.about section:nth-child(3) section:nth-child(3){
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        padding: 30px 20px 30px 20px;
+        border-left: 1px solid #d9dbdb;
+
+    }
+    section.container section.about section:nth-child(3) section:nth-child(4){
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        padding: 30px 20px 30px 20px;
+
+
+    }
+    section.container section.about section:nth-child(3) section:nth-child(1) p:nth-child(1){
+        text-align: center;
+    }
+    section.container section.about section:nth-child(3) section:nth-child(1) p:nth-child(1) img{
+        width: 32px;
+        height: 23px;
+    }
+    section.container section.about section:nth-child(3) section:nth-child(1) h3:nth-child(2){
+        text-align: center;
+        font-family: MyriadArabic;
+        font-size: 20px;
+        font-weight: bold;
+        /*margin-top: 20px;*/
+    }
+    section.container section.about section:nth-child(3) section:nth-child(1) p:nth-child(3){
+        text-align: center;
+        font-family: MyriadArabic;
+        font-size: 13px;
+        font-weight: bold;
+        margin-top: 20px;
+        direction: rtl;
+        line-height: 20px;
+    }
+    section.container section.about section:nth-child(3) section:nth-child(2){
+        color:#b2b4b7;
+    }
+
+    section.container section.about section:nth-child(3) section:nth-child(2) p:nth-child(1){
+        text-align: center;
+    }
+    section.container section.about section:nth-child(3) section:nth-child(2) h3:nth-child(2){
+        text-align: center;
+        font-family: MyriadArabic;
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+    section.container section.about section:nth-child(3) section:nth-child(2) p:nth-child(3){
+        text-align: center;
+        font-family: MyriadArabic;
+        font-size: 13px;
+        font-weight: bold;
+        margin-top: 20px;
+        direction: rtl;
+        line-height: 20px;
+        color: #7e8287;
+    }
+
+
+    section.container section.about section:nth-child(3) section:nth-child(3) p:nth-child(1){
+        text-align: center;
+    }
+    section.container section.about section:nth-child(3) section:nth-child(3) h3:nth-child(2){
+        text-align: center;
+        font-family: MyriadArabic;
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+    section.container section.about section:nth-child(3) section:nth-child(3) p:nth-child(3){
+        text-align: center;
+        font-family: MyriadArabic;
+        font-size: 13px;
+        font-weight: bold;
+        margin-top: 20px;
+        direction: rtl;
+        line-height: 20px;
+
+    }
+    section.container section.about section:nth-child(3) section:nth-child(4) p:nth-child(1){
+        text-align: center;
+    }
+    section.container section.about section:nth-child(3) section:nth-child(4) h3:nth-child(2){
+        text-align: center;
+        font-family: MyriadArabic;
+        font-size: 16px;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+    section.container section.about section:nth-child(3) section:nth-child(4) p:nth-child(3){
+        text-align: center;
+        font-family: MyriadArabic;
+        font-size: 13px;
+        font-weight: bold;
+        margin-top: 20px;
+        direction: rtl;
+        line-height: 20px;
+    }
+
+    /******************** Make Services*********************/
+    section.container section.Services {
+        direction: rtl;
+        width: 100%;
+        height: 730px;
+        background: url("../images/Image02.png") center center no-repeat    fixed;
+        display:flex;
+        flex-flow: column nowrap;
+        font-family: MyriadArabic;
+        padding: 70px 0 70px 0;
+        box-sizing: border-box;
+    }
+
+    section.container section.Services section:nth-child(1) {
+        padding-right: 70px;
+        margin-bottom: 30px;
+    }
+
+    section.container section.Services section:nth-child(1)>h1{
+        width: 40%;
+        font-size: 40px;
+        font-weight: bold;
+        color: #02918c;
+        padding-bottom: 30px;
+    }
+
+    section.container section.Services section:nth-child(1)>h2{
+        width: 560px;
+        height: 5px;
+        background-image: url("../images/Line.png");
+        background-repeat: no-repeat;
+        padding-bottom: 30px;
+    }
+
+    section.container section.Services section:nth-child(2) {
+        width: 450px;
+        align-items: center;
+        font-size: 14px;
+        color: #7e8287;
+        padding: 30px 80px 0 80px;
+        margin-bottom: 40px;
+    }
+
+    section.container section.Services>section:nth-child(3) {
+        display: flex;
+        flex-flow: wrap row;
+        width: 50%;
+        box-sizing: border-box;
+        padding: 0;
+        margin-right: 70px;
+    }
+
+    section.container section.Services section:nth-child(3) div.item {
+        display: flex;
+        flex-flow: wrap row;
+        padding: 0;
+        margin: 60px 20px 30px 20px;
+        width: 80%;
+        box-sizing: border-box;
+    }
+
+    section.container section.Services section:nth-child(3) div.item>div:nth-child(1) {
+        width: 40%;
+        padding: 5px;
+        box-sizing: border-box;
+        float: right;
+        margin-bottom: 60px;
+    }
+
+    section.container section.Services section:nth-child(3) div.item>div:nth-child(1)>div:nth-child(1) {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    section.container section.Services section:nth-child(3) div.item>div:nth-child(1)>div:nth-child(1)>h1:nth-child(1){
+        width: 50%;
+        float: right;
+        box-sizing: border-box;
+        font-family: MyriadArabic;
+        font-size: 20px;
+        font-weight: bold;
+        /*padding-right: 20px;*/
+        color: #7e8287;
+    }
+
+    section.container section.Services section:nth-child(3) div.item>div:nth-child(1)>div:nth-child(1)>h1:nth-child(2){
+        float: left;
+        text-align: left;
+    }
+
+    section.container section.Services section:nth-child(3) div.item>div:nth-child(1)>div:nth-child(2){
+        float: right;
+        text-align: right;
+        font-size: 13px;
+        font-family: MyriadArabic;
+        color: #7e8287;
+        margin-bottom: 40px;
+    }
+
+    section.container section.Services section:nth-child(3)>.item>div:nth-child(2) {
+    }
+
+    section.container section.Services section:nth-child(3) div.item>div:nth-child(2) {
+        width: 40%;
+        padding: 5px;
+        box-sizing: border-box;
+        margin-right: 50px;
+    }
+
+    section.container section.Services section:nth-child(3) div.item>div:nth-child(2)>div:nth-child(1) {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    section.container section.Services section:nth-child(3) div.item>div:nth-child(2)>div:nth-child(1)>h1:nth-child(1){
+        width: 50%;
+        float: right;
+        box-sizing: border-box;
+        font-family: MyriadArabic;
+        font-size: 20px;
+        font-weight: bold;
+        color: #7e8287;
+        /*padding-right: 20px;*/
+    }
+
+    section.container section.Services section:nth-child(3) div.item>div:nth-child(2)>div:nth-child(1)>h1:nth-child(2){
+        float: left;
+        text-align: left;
+    }
+
+    section.container section.Services section:nth-child(3) div.item>div:nth-child(2)>div:nth-child(2){
+        float: right;
+        text-align: right;
+        font-size: 13px;
+        font-family: MyriadArabic;
+        color: #7e8287;
+    }
+    section.container section.Services section:nth-child(3) div.item>div:nth-child(3) {
+        width: 40%;
+        padding: 5px;
+        box-sizing: border-box;
+        float: right;
+    }
+
+    section.container section.Services section:nth-child(3) div.item>div:nth-child(3)>div:nth-child(1) {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    section.container section.Services section:nth-child(3) div.item>div:nth-child(3)>div:nth-child(1)>h1:nth-child(1){
+        width: 50%;
+        float: right;
+        box-sizing: border-box;
+        font-family: MyriadArabic;
+        font-size: 20px;
+        font-weight: bold;
+        /*padding-right: 20px;*/
+        color: #7e8287;
+    }
+
+    section.container section.Services section:nth-child(3) div.item>div:nth-child(3)>div:nth-child(1)>h1:nth-child(2){
+        float: left;
+        text-align: left;
+    }
+
+    section.container section.Services section:nth-child(3) div.item>div:nth-child(3)>div:nth-child(2){
+        float: right;
+        text-align: right;
+        font-size: 13px;
+        font-family: MyriadArabic;
+        color: #7e8287;
+    }
+
+
+    section.container section.Services section:nth-child(3) div.item>div:nth-child(4) {
+        width: 40%;
+        padding: 5px;
+        box-sizing: border-box;
+        float: right;
+        margin-right: 50px;
+    }
+
+    section.container section.Services section:nth-child(3) div.item>div:nth-child(4)>div:nth-child(1) {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    section.container section.Services section:nth-child(3) div.item>div:nth-child(4)>div:nth-child(1)>h1:nth-child(1){
+        width: 50%;
+        float: right;
+        box-sizing: border-box;
+        font-family: MyriadArabic;
+        font-size: 20px;
+        font-weight: bold;
+        color: #7e8287;
+    }
+
+    section.container section.Services section:nth-child(3) div.item>div:nth-child(4)>div:nth-child(1)>h1:nth-child(2){
+        float: left;
+        text-align: left;
+    }
+
+    section.container section.Services section:nth-child(3) div.item>div:nth-child(4)>div:nth-child(2){
+        float: right;
+        text-align: right;
+        font-size: 13px;
+        font-family: MyriadArabic;
+        color: #7e8287;
+    }
+    /******************** End Services*********************/
+
+    /******************** Make Sample*********************/
+   section.container section.sample{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+       direction: rtl;
+
+    }
+
+    section.container section.sample>section.part1:nth-child(1){
+        width: 80%;
+        padding: 20px;
+        text-align: center;
+        margin: 50px auto;
+    }
+
+    section.container section.sample>section.part1>h1:nth-child(1){
+      font-family: MyriadArabic;
+        font-size: 42px;
+        text-align: center;
+        font-weight: bold;
+        color: #02918c;
+        margin: 20px auto;
+        box-sizing: border-box;
+    }
+
+    section.container section.sample>section.part1>h2:nth-child(2) {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    section.container section.sample>section.part1>p:nth-child(3) {
+        text-align: justify;
+        text;
+        font-family: MyriadArabic;
+        font-size: 16px;
+        font-weight: bold;
+        color: #abaeb1;
+        line-height: 30px;
+    }
+
+    section.container section.sample section.part2:nth-child(2){
+        width: 100%;
+        box-sizing: border-box;
+        background-color: lightblue;
+        padding: 0 !important;
+        display: flex;
+        flex-flow: row wrap;
+
+
+    }
+    section.container section.sample section.part2:nth-child(2) section.productSample{
+        margin: 0 !important;
+        padding: 0 !important;
+        width: 25%;
+        display: flex;
+        flex-flow: row-reverse wrap;
+        position: relative;
+       /*transform: scale(0,0);*/
+       /* transition: all 0.3s ease;*/
+
+    }
+    section.container section.sample section.part2:nth-child(2) section.productSample img:nth-child(1){
+        width: 100%;
+        height: 230px;
+        cursor: pointer;
+
+    }
+    section.container section.sample section.part2:nth-child(2) section.productSample section.imgHover:nth-child(2){
+        position: absolute;
+        top: 0;
+        left:0;
+        background-color: #239891;
+        z-index: 1;
+        width: 100%;
+        height: inherit;
+        text-align: center;
+        box-sizing: border-box;
+        padding: 40px;
+        transform: scale(0,0);
+        transition:all 0.3s ease;
+    }
+    section.container section.sample section.part2:nth-child(2) section.productSample:hover section.imgHover:nth-child(2){
+        transform: scale(1,1);
+    }
+    section.container section.sample section.part2:nth-child(2) section.productSample section.imgHover:nth-child(2)>h2:nth-child(1){
+       font-family: MyriadArabic;
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+        color: white;
+
+
+    }
+    section.container section.sample section.part2:nth-child(2) section.productSample section.imgHover:nth-child(2)>p:nth-child(2){
+        font-family: MyriadArabic;
+        font-size: 13px;
+        color: white;
+        line-height: 20px;
+    }
+    /******************** End Sample*********************/
+
+    /******************** Make contact*********************/
+
+        /**** Make part1 ****/
+    section.container section.contact{
+        width: 100%;
+        text-align: center;
+    }
+
+    section.container section.contact section.part1{
+
+        width:80%;
+        margin: 0 auto;
+
+     }
+
+    section.container section.contact section.part1>h1{
+        font-family: MyriadArabic;
+        font-size: 60px;
+        font-weight: bold;
+        color: #02918c;
+        padding-top: 95px;
+    }
+    section.container section.contact section.part1>h2{
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    section.container section.contact section.part1>p{
+        font-family: MyriadArabic;
+        font-size: 13px;
+        color: #afb2b4;
+    }
+    /**** End part1 ****/
+
+    /**** Make part2 ****/
+    section.container section.contact section.part2{
+        width: 100%;
+        padding:30px 0 30px 0;
+        background-color: #0b0b0b;
+        /*margin: 5px;*/
+
+    }
+
+    section.container section.contact section.part2 form{
+        width: 80%;
+        padding: 10px;
+        box-sizing: border-box;
+        margin: 0 auto;
+        text-align: center;
+       display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+
+    }
+
+    section.container section.contact section.part2 form input[type=text]{
+        width: 650px;
+        text-align: center;
+        margin: 20px auto;
+        background-color: transparent;
+        border: none;
+        height: 45px;
+        border-bottom: 2px inset #898989;
+        color: white;
+    }
+    section.container section.contact section.part2 form input[type=text]:focus{
+        outline: none;
+    }
+
+    section.container section.contact section.part2 form input[type=email]{
+        width: 650px;
+        text-align: center;
+        margin: 20px auto;
+        background-color: transparent;
+        border: none;
+        height: 45px;
+        border-bottom: 2px inset #898989;
+        color: white;
+    }
+    section.container section.contact section.part2 form input[type=email]:focus{
+        outline: none;
+    }
+    section.container section.contact section.part2 form textarea:nth-child(3){
+        width: 930px;
+        text-align: center;
+        margin: 20px auto;
+        resize: none;
+        background-color: transparent;
+        border: none;
+        border-bottom: 2px inset #898989;
+        height: 120px;
+        font-size: 20px;
+        color: white;
+    }
+    section.container section.contact section.part2 form textarea:nth-child(3):focus{
+      outline: none;
+    }
+    section.container section.contact section.part2 form input[type=submit]{
+        width: 200px;
+        text-align: center;
+        margin: 0 auto;
+        background-color: #cfc91d;
+        color: #000000;
+        font-family: MyriadArabic;
+        font-size: 20px;
+    }
+
+    /**** End part2 ****/
+
+    /******************** End contact*********************/
+
+    /******************** Make footer *********************/
+
+    section.container section.footer{
+        width: 100%;
+        height: 70px;
+        background-color: #000000;
+        color: #525252;
+        font-family: MyriadArabic;
+        font-size: 17px;
+        font-weight: bold;
+        text-align: center;
+        line-height: 20px;
+        padding-top:20px ;
+    }
+    /******************** End footer*********************/
+
+
+}
+
+
+@media(max-width: 1200px) and (min-width:990px){
+    /*************************************Start TopNavigation************************************************/
+    section.container section.TopNavigation{
+        width: 100%;
+        height: 62px;
+        background-color: #02918c;
+    }
+    section.container section.TopNavigation nav{
+        width: inherit;
+        height: inherit;
+    }
+    section.container section.TopNavigation nav ul{
+        width: inherit;
+        height: inherit;
+    }
+    section.container section.TopNavigation nav>ul>li{
+        list-style: none;
+    }
+    section.container section.TopNavigation nav>ul>li:nth-child(1){
+        width: 30%;
+        height: inherit;
+        float: right;
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 40px;
+        font-weight: bold;
+        font-family: "MyriadArabic";
+        text-align: center;
+        box-sizing: border-box;
+    }
+
+    section.container section.TopNavigation nav>ul>li:nth-child(2){
+        width: 70%;
+        height: inherit;
+        float: left;
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: "MyriadArabic";
+        line-height: 40px;
+        box-sizing: border-box;
+
+
+
+    }
+    section.container section.TopNavigation nav>ul>li>ul{
+        width: 100%;
+        height: inherit;
+        display: flex;
+        direction: rtl;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        list-style: none;
+        justify-content: flex-start;
+    }
+    section.container section.TopNavigation nav>ul>li>ul>li {
+        width: 150px;
+        height: inherit;
+        text-align: center;
+
+    }
+    section.container section.TopNavigation nav>ul>li>ul>li>a{
+        width: inherit;
+        height: inherit;
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: "MyriadArabic";
+        text-align: center;
+
+    }
+    /********************End TopNavigation********************/
+
+    /********************Make MainHeader********************/
+    section.container section.MainHeader{
+        width: 100%;
+        height: 730px;
+        background: url("../images/Image01.jpg") center center no-repeat fixed;
+        display: flex;
+        flex-flow: row nowrap;
+        background-size: cover;
+        justify-content: center;
+        align-items: center;
+    }
+    /********************End MainHeader********************/
+    /********************Make MainText********************/
+    section.container section.MainHeader section.MainText{
+        width: 730px;
+        height: 315px;
+        box-sizing: border-box;
+    }
+    /********************End MainText********************/
+
+    /********************Make h1********************/
+    section.container section.MainHeader section.MainText h1{
+        text-align: center;
+        font-size: 35px;
+        font-weight: bold;
+        font-family: "MyriadArabic";
+        color: #ffffff;
+        margin-bottom: 100px;
+
+    }
+    /********************End h1********************/
+
+
+    /********************Make p********************/
+    section.container section.MainHeader section.MainText p{
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    /********************End p********************/
+
+    /********************Make a********************/
+    section.container section.MainHeader section.MainText a{
+        display: block;
+        width: 200px;
+        height: 50px;
+        text-align: center;
+        color: #000000;
+        text-decoration: none;
+        font-size: 35px;
+        font-weight: bold;
+        font-family: "MyriadArabic";
+        margin: 0 auto;
+        background-color: #cfc91d;
+        line-height: 50px;
+        border-radius: 5px;
+
+    }
+    /********************End a********************/
+    /******************** Make About*********************/
+    section.container section.about{
+        width: 100%;
+        height: 750px;
+        padding: 80px 0 80px 0;
+        margin: 0 auto;
+        box-sizing: border-box;
+    }
+    /******************** End About*********************/
+
+    section.container section.about section:nth-child(1){
+        /*width: 50%;*/
+        margin: 0 auto;
+        text-align: center;
+        text-justify: auto;
+
+    }
+    section.container section.about section:nth-child(1) h1{
+        font-family: "MyriadArabic";
+        font-size: 50px;
+        color: #02918c;
+        margin-bottom: 30px;
+    }
+    section.container section.about section:nth-child(1) p{
+        margin-bottom: 30px;
+    }
+    section.container section.about section:nth-child(2){
+        text-align: center;
+        width: 990px;
+        margin-left: calc(50% - 500px);
+        margin-bottom: 80px;
+        font-family: "MyriadArabic";
+        font-size: 16px;
+        color: #abaeb1;
+    }
+
+
+    section.container section.about section:nth-child(2) h4{
+        font-family: "MyriadArabic";
+        font-size: 16px;
+        line-height: 35px;
+        direction: rtl;
+
+    }
+    section.container section.about section:nth-child(3){
+        width: 1000px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: nowrap;
+        color: #7e8287;
+    }
+    section.container section.about section:nth-child(3) section:nth-child(1){
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        padding: 30px 20px 30px 20px;
+        border-left: 1px solid #d9dbdb;
+
+    }
+    section.container section.about section:nth-child(3) section:nth-child(2){
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        padding: 30px 20px 30px 20px;
+        border-left: 1px solid #d9dbdb;
+        margin: 0;
+    }
+    section.container section.about section:nth-child(3) section:nth-child(3){
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        padding: 30px 20px 30px 20px;
+        border-left: 1px solid #d9dbdb;
+
+    }
+    section.container section.about section:nth-child(3) section:nth-child(4){
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        padding: 30px 20px 30px 20px;
+
+
+    }
+    section.container section.about section:nth-child(3) section:nth-child(1) p:nth-child(1){
+        text-align: center;
+    }
+    section.container section.about section:nth-child(3) section:nth-child(1) p:nth-child(1) img{
+        width: 32px;
+        height: 23px;
+    }
+    section.container section.about section:nth-child(3) section:nth-child(1) h3:nth-child(2){
+        text-align: center;
+        font-family: MyriadArabic;
+        font-size: 20px;
+        font-weight: bold;
+        /*margin-top: 20px;*/
+    }
+    section.container section.about section:nth-child(3) section:nth-child(1) p:nth-child(3){
+        text-align: center;
+        font-family: MyriadArabic;
+        font-size: 13px;
+        font-weight: bold;
+        margin-top: 20px;
+        direction: rtl;
+        line-height: 20px;
+    }
+    section.container section.about section:nth-child(3) section:nth-child(2){
+        color:#b2b4b7;
+    }
+
+    section.container section.about section:nth-child(3) section:nth-child(2) p:nth-child(1){
+        text-align: center;
+    }
+    section.container section.about section:nth-child(3) section:nth-child(2) h3:nth-child(2){
+        text-align: center;
+        font-family: MyriadArabic;
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+    section.container section.about section:nth-child(3) section:nth-child(2) p:nth-child(3){
+        text-align: center;
+        font-family: MyriadArabic;
+        font-size: 13px;
+        font-weight: bold;
+        margin-top: 20px;
+        direction: rtl;
+        line-height: 20px;
+        color: #7e8287;
+    }
+
+
+    section.container section.about section:nth-child(3) section:nth-child(3) p:nth-child(1){
+        text-align: center;
+    }
+    section.container section.about section:nth-child(3) section:nth-child(3) h3:nth-child(2){
+        text-align: center;
+        font-family: MyriadArabic;
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+    section.container section.about section:nth-child(3) section:nth-child(3) p:nth-child(3){
+        text-align: center;
+        font-family: MyriadArabic;
+        font-size: 13px;
+        font-weight: bold;
+        margin-top: 20px;
+        direction: rtl;
+        line-height: 20px;
+
+    }
+    section.container section.about section:nth-child(3) section:nth-child(4) p:nth-child(1){
+        text-align: center;
+    }
+    section.container section.about section:nth-child(3) section:nth-child(4) h3:nth-child(2){
+        text-align: center;
+        font-family: MyriadArabic;
+        font-size: 16px;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+    section.container section.about section:nth-child(3) section:nth-child(4) p:nth-child(3){
+        text-align: center;
+        font-family: MyriadArabic;
+        font-size: 13px;
+        font-weight: bold;
+        margin-top: 20px;
+        direction: rtl;
+        line-height: 20px;
+    }
+    /******************** Make Services*********************/
+    section.container section.Services {
+        direction: rtl;
+        width: 100%;
+        height: 730px;
+        background: url("../images/Image02.png") center center no-repeat    fixed;
+        display:flex;
+        flex-flow: column nowrap;
+        font-family: MyriadArabic;
+        padding: 70px 0 70px 0;
+        box-sizing: border-box;
+    }
+
+    section.container section.Services section:nth-child(1) {
+        padding-right: 70px;
+    }
+
+    section.container section.Services section:nth-child(1)>h1{
+        width: 40%;
+        font-size: 40px;
+        font-weight: bold;
+        color: #02918c;
+        padding-bottom: 30px;
+    }
+
+    section.container section.Services section:nth-child(1)>h2{
+        width: 420px;
+        height: 5px;
+        background-image: url("../images/Line.png");
+        background-repeat: no-repeat;
+        padding-bottom: 30px;
+    }
+
+    section.container section.Services section:nth-child(2) {
+        width: 400px;
+        align-items: center;
+        font-size: 14px;
+        color: #7e8287;
+        padding: 30px 80px 0 80px;
+        margin-bottom: 30px;
+    }
+
+    section.container section.Services>section:nth-child(3) {
+        display: flex;
+        flex-flow: wrap row;
+        width: 50%;
+        box-sizing: border-box;
+        padding: 0;
+        margin-right: 70px;
+    }
+
+    section.container section.Services section:nth-child(3) div.item {
+        display: flex;
+        flex-flow: wrap row;
+        padding: 0;
+        margin: 10px;
+        width: 80%;
+        box-sizing: border-box;
+    }
+
+    section.container section.Services section:nth-child(3) div.item>div:nth-child(1) {
+        width: 40%;
+        padding: 5px;
+        box-sizing: border-box;
+        float: right;
+    }
+
+    section.container section.Services section:nth-child(3) div.item>div:nth-child(1)>div:nth-child(1) {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    section.container section.Services section:nth-child(3) div.item>div:nth-child(1)>div:nth-child(1)>h1:nth-child(1){
+        width: 50%;
+        float: right;
+        box-sizing: border-box;
+        font-family: MyriadArabic;
+        font-size: 20px;
+        font-weight: bold;
+        /*padding-right: 20px;*/
+        color: #7e8287;
+    }
+
+    section.container section.Services section:nth-child(3) div.item>div:nth-child(1)>div:nth-child(1)>h1:nth-child(2){
+        float: left;
+        text-align: left;
+    }
+
+    section.container section.Services section:nth-child(3) div.item>div:nth-child(1)>div:nth-child(2){
+        float: right;
+        text-align: right;
+        font-size: 13px;
+        font-family: MyriadArabic;
+        color: #7e8287;
+    }
+
+    section.container section.Services section:nth-child(3)>.item>div:nth-child(2) {
+    }
+
+    section.container section.Services section:nth-child(3) div.item>div:nth-child(2) {
+        width: 40%;
+        padding: 5px;
+        box-sizing: border-box;
+        margin-right: 50px;
+    }
+
+    section.container section.Services section:nth-child(3) div.item>div:nth-child(2)>div:nth-child(1) {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    section.container section.Services section:nth-child(3) div.item>div:nth-child(2)>div:nth-child(1)>h1:nth-child(1){
+        width: 50%;
+        float: right;
+        box-sizing: border-box;
+        font-family: MyriadArabic;
+        font-size: 20px;
+        font-weight: bold;
+        color: #7e8287;
+        /*padding-right: 20px;*/
+    }
+
+    section.container section.Services section:nth-child(3) div.item>div:nth-child(2)>div:nth-child(1)>h1:nth-child(2){
+        float: left;
+        text-align: left;
+    }
+
+    section.container section.Services section:nth-child(3) div.item>div:nth-child(2)>div:nth-child(2){
+        float: right;
+        text-align: right;
+        font-size: 13px;
+        font-family: MyriadArabic;
+        color: #7e8287;
+    }
+    section.container section.Services section:nth-child(3) div.item>div:nth-child(3) {
+        width: 40%;
+        padding: 5px;
+        box-sizing: border-box;
+        float: right;
+    }
+
+    section.container section.Services section:nth-child(3) div.item>div:nth-child(3)>div:nth-child(1) {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    section.container section.Services section:nth-child(3) div.item>div:nth-child(3)>div:nth-child(1)>h1:nth-child(1){
+        width: 50%;
+        float: right;
+        box-sizing: border-box;
+        font-family: MyriadArabic;
+        font-size: 20px;
+        font-weight: bold;
+        /*padding-right: 20px;*/
+        color: #7e8287;
+    }
+
+    section.container section.Services section:nth-child(3) div.item>div:nth-child(3)>div:nth-child(1)>h1:nth-child(2){
+        float: left;
+        text-align: left;
+    }
+
+    section.container section.Services section:nth-child(3) div.item>div:nth-child(3)>div:nth-child(2){
+        float: right;
+        text-align: right;
+        font-size: 13px;
+        font-family: MyriadArabic;
+        color: #7e8287;
+    }
+
+
+    section.container section.Services section:nth-child(3) div.item>div:nth-child(4) {
+        width: 40%;
+        padding: 5px;
+        box-sizing: border-box;
+        float: right;
+        margin-right: 50px;
+    }
+
+    section.container section.Services section:nth-child(3) div.item>div:nth-child(4)>div:nth-child(1) {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    section.container section.Services section:nth-child(3) div.item>div:nth-child(4)>div:nth-child(1)>h1:nth-child(1){
+        width: 50%;
+        float: right;
+        box-sizing: border-box;
+        font-family: MyriadArabic;
+        font-size: 20px;
+        font-weight: bold;
+        color: #7e8287;
+    }
+
+    section.container section.Services section:nth-child(3) div.item>div:nth-child(4)>div:nth-child(1)>h1:nth-child(2){
+        float: left;
+        text-align: left;
+    }
+
+    section.container section.Services section:nth-child(3) div.item>div:nth-child(4)>div:nth-child(2){
+        float: right;
+        text-align: right;
+        font-size: 13px;
+        font-family: MyriadArabic;
+        color: #7e8287;
+    }
+    /******************** End Services*********************/
+
+    /******************** Make Sample*********************/
+    section.container section.sample{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        direction: rtl;
+
+    }
+
+    section.container section.sample>section.part1:nth-child(1){
+        width: 80%;
+        padding: 20px;
+        text-align: center;
+        margin: 50px auto;
+    }
+
+    section.container section.sample>section.part1>h1:nth-child(1){
+        font-family: MyriadArabic;
+        font-size: 42px;
+        text-align: center;
+        font-weight: bold;
+        color: #02918c;
+        margin: 20px auto;
+        box-sizing: border-box;
+    }
+
+    section.container section.sample>section.part1>h2:nth-child(2) {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    section.container section.sample>section.part1>p:nth-child(3) {
+        text-align: justify;
+        text;
+        font-family: MyriadArabic;
+        font-size: 16px;
+        font-weight: bold;
+        color: #abaeb1;
+        line-height: 30px;
+    }
+
+    section.container section.sample section.part2:nth-child(2){
+        width: 100%;
+        box-sizing: border-box;
+        background-color: lightblue;
+        padding: 0 !important;
+        display: flex;
+        flex-flow: row wrap;
+
+
+    }
+    section.container section.sample section.part2:nth-child(2) section.productSample{
+        margin: 0 !important;
+        padding: 0 !important;
+        width: 25%;
+        display: flex;
+        flex-flow: row-reverse wrap;
+        position: relative;
+        /*transform: scale(0,0);*/
+        /* transition: all 0.3s ease;*/
+
+    }
+    section.container section.sample section.part2:nth-child(2) section.productSample img:nth-child(1){
+        width: 100%;
+        height: 230px;
+        cursor: pointer;
+
+    }
+    section.container section.sample section.part2:nth-child(2) section.productSample section.imgHover:nth-child(2){
+        position: absolute;
+        top: 0;
+        left:0;
+        background-color: #239891;
+        z-index: 1;
+        width: 100%;
+        height: inherit;
+        text-align: center;
+        box-sizing: border-box;
+        padding: 30px;
+        transform: scale(0,0);
+        transition:all 0.3s ease;
+    }
+    section.container section.sample section.part2:nth-child(2) section.productSample:hover section.imgHover:nth-child(2){
+        transform: scale(1,1);
+    }
+    section.container section.sample section.part2:nth-child(2) section.productSample section.imgHover:nth-child(2)>h2:nth-child(1){
+        font-family: MyriadArabic;
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+        color: white;
+
+
+    }
+    section.container section.sample section.part2:nth-child(2) section.productSample section.imgHover:nth-child(2)>p:nth-child(2){
+        font-family: MyriadArabic;
+        font-size: 13px;
+        color: white;
+        line-height: 20px;
+    }
+    /******************** End Sample*********************/
+
+    /******************** Make contact*********************/
+    section.container section.contact{
+        width: 100%;
+        text-align: center;
+    }
+
+    section.container section.contact section.part1{
+        width:80%;
+        margin: 0 auto;
+    }
+
+    section.container section.contact section.part1>h1{
+        font-family: MyriadArabic;
+        font-size: 60px;
+        font-weight: bold;
+        color: #02918c;
+        padding-top: 95px;
+    }
+    section.container section.contact section.part1>h2{
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    section.container section.contact section.part1>p{
+        font-family: MyriadArabic;
+        font-size: 13px;
+        color: #afb2b4;
+    }
+    /**** Make part2 ****/
+    section.container section.contact section.part2{
+        width: 100%;
+        padding:30px 0 30px 0;
+        background-color: #0b0b0b;
+        /*margin:  0 auto;*/
+        /*margin: 5px;*/
+
+    }
+
+    section.container section.contact section.part2 form{
+        width: 80%;
+        padding: 10px;
+        box-sizing: border-box;
+        margin: 0 auto;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    section.container section.contact section.part2 form input[type=text]{
+        width: 600px;
+        text-align: center;
+        margin: 20px auto;
+        background-color: transparent;
+        border: none;
+        height: 45px;
+        border-bottom: 2px inset #898989;
+        color: white;
+        box-sizing: border-box;
+    }
+    section.container section.contact section.part2 form input[type=text]:focus{
+        outline: none;
+    }
+
+    section.container section.contact section.part2 form input[type=email]{
+        width: 600px;
+        text-align: center;
+        margin: 20px auto;
+        background-color: transparent;
+        border: none;
+        height: 45px;
+        border-bottom: 2px inset #898989;
+        color: white;
+        box-sizing: border-box;
+    }
+    section.container section.contact section.part2 form input[type=email]:focus{
+        outline: none;
+    }
+    section.container section.contact section.part2 form textarea:nth-child(3){
+        width: 800px;
+        text-align: center;
+        margin: 20px auto;
+        resize: none;
+        background-color: transparent;
+        border: none;
+        border-bottom: 2px inset #898989;
+        height: 120px;
+        font-size: 20px;
+        color: white;
+        box-sizing: border-box;
+
+    }
+    section.container section.contact section.part2 form textarea:nth-child(3):focus{
+        outline: none;
+    }
+    section.container section.contact section.part2 form input[type=submit]{
+        width: 200px;
+        text-align: center;
+        margin: 0 auto;
+        background-color: #cfc91d;
+        color: #000000;
+        font-family: MyriadArabic;
+        font-size: 20px;
+        box-sizing: border-box;
+    }
+
+    /**** End part2 ****/
+    /******************** End contact*********************/
+    /******************** Make footer *********************/
+
+    section.container section.footer{
+        width: 100%;
+        height: 70px;
+        background-color: #000000;
+        color: #525252;
+        font-family: MyriadArabic;
+        font-size: 17px;
+        font-weight: bold;
+        text-align: center;
+        line-height: 20px;
+        padding-top:20px ;
+    }
+    /******************** End footer*********************/
+
+
+
+}
+
+
+@media (min-width: 768px) and (max-width: 990px) {
+    /********************Start TopNavigation********************/
+    section.container section.TopNavigation{
+        width: 100%;
+        height: 62px;
+        background-color: #02918c;
+    }
+    section.container section.TopNavigation nav{
+        width: inherit;
+        height: inherit;
+    }
+    section.container section.TopNavigation nav ul{
+        width: inherit;
+        height: inherit;
+    }
+    section.container section.TopNavigation nav>ul>li{
+        list-style: none;
+    }
+    section.container section.TopNavigation nav>ul>li:nth-child(1){
+        width: 30%;
+        height: inherit;
+        float: right;
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 30px;
+        font-weight: bold;
+        font-family: "MyriadArabic";
+        text-align: center;
+        box-sizing: border-box;
+    }
+
+    section.container section.TopNavigation nav>ul>li:nth-child(2){
+        width: 70%;
+        height: inherit;
+        float: left;
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: bold;
+        font-family: "MyriadArabic";
+        line-height: 40px;
+        box-sizing: border-box;
+
+
+
+    }
+    section.container section.TopNavigation nav>ul>li>ul{
+        width: 100%;
+        height: inherit;
+        display: flex;
+        direction: rtl;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        list-style: none;
+        justify-content: flex-start;
+        /*align-content:flex-start;*/
+        /*align-items: flex-end;*/
+
+    }
+    section.container section.TopNavigation nav>ul>li>ul>li {
+        width: 150px;
+        height: inherit;
+        text-align: center;
+
+    }
+    section.container section.TopNavigation nav>ul>li>ul>li>a{
+        width: inherit;
+        height: inherit;
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: "MyriadArabic";
+        text-align: center;
+
+    }
+    /********************End TopNavigation********************/
+    /********************Make MainHeader********************/
+    section.container section.MainHeader{
+        width: 100%;
+        height: 730px;
+        background: url("../images/Image01.jpg") center center no-repeat fixed;
+
+        display: flex;
+        flex-flow: row nowrap;
+        background-size: cover;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+    /********************End MainHeader********************/
+    /********************Make MainText********************/
+    section.container section.MainHeader section.MainText{
+        width: 700px;
+        height: 315px;
+        box-sizing: border-box;
+    }
+    /********************End MainText********************/
+
+    /********************Make h1********************/
+    section.container section.MainHeader section.MainText h1{
+        text-align: center;
+        font-size: 35px;
+        font-weight: bold;
+        font-family: "MyriadArabic";
+        color: #ffffff;
+        margin-bottom: 100px;
+
+    }
+    /********************End h1********************/
+
+
+    /********************Make p********************/
+    section.container section.MainHeader section.MainText p{
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    /********************End p********************/
+
+    /********************Make a********************/
+    section.container section.MainHeader section.MainText a{
+        display: block;
+        width: 200px;
+        height: 50px;
+        text-align: center;
+        color: #000000;
+        text-decoration: none;
+        font-size: 35px;
+        font-weight: bold;
+        font-family: "MyriadArabic";
+        margin: 0 auto;
+        background-color: #cfc91d;
+        line-height: 50px;
+        border-radius: 5px;
+
+    }
+    /********************End a********************/
+    /******************** Make About*********************/
+    section.container section.about{
+        width: 100%;
+        height: 750px;
+        padding: 80px 0 80px 0;
+        margin: 0 auto;
+        box-sizing: border-box;
+    }
+    /******************** End About*********************/
+
+    section.container section.about section:nth-child(1){
+        /*width: 50%;*/
+        margin: 0 auto;
+        text-align: center;
+        text-justify: auto;
+
+    }
+    section.container section.about section:nth-child(1) h1{
+        font-family: "MyriadArabic";
+        font-size: 50px;
+        color: #02918c;
+        margin-bottom: 30px;
+    }
+    section.container section.about section:nth-child(1) p{
+        margin-bottom: 30px;
+    }
+    section.container section.about section:nth-child(2){
+        text-align: center;
+        width: 700px;
+        /*margin-top: 30px;*/
+        margin-left: calc(50% - 350px);
+        margin-bottom: 80px;
+        font-family: "MyriadArabic";
+        font-size: 12px;
+        color: #abaeb1;
+        box-sizing: border-box;
+    }
+
+
+    section.container section.about section:nth-child(2) h4{
+        font-family: "MyriadArabic";
+        font-size: 16px;
+        line-height: 35px;
+        direction: rtl;
+
+    }
+    section.container section.about section:nth-child(3){
+        width: 750px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: nowrap;
+        color: #7e8287;
+        box-sizing: border-box;
+    }
+    section.container section.about section:nth-child(3) section:nth-child(1){
+        width: 180px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        padding: 30px 20px 30px 20px;
+        border-left: 1px solid #d9dbdb;
+        box-sizing: border-box;
+
+    }
+    section.container section.about section:nth-child(3) section:nth-child(2){
+        width: 180px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        padding: 30px 20px 30px 20px;
+        border-left: 1px solid #d9dbdb;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    section.container section.about section:nth-child(3) section:nth-child(3){
+        width: 180px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        padding: 30px 20px 30px 20px;
+        border-left: 1px solid #d9dbdb;
+        box-sizing: border-box;
+
+    }
+    section.container section.about section:nth-child(3) section:nth-child(4){
+        width: 180px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        padding: 30px 20px 30px 20px;
+        box-sizing: border-box;
+    }
+    section.container section.about section:nth-child(3) section:nth-child(1) p:nth-child(1){
+        text-align: center;
+    }
+    section.container section.about section:nth-child(3) section:nth-child(1) p:nth-child(1) img{
+        width: 32px;
+        height: 23px;
+    }
+    section.container section.about section:nth-child(3) section:nth-child(1) h3:nth-child(2){
+        text-align: center;
+        font-family: MyriadArabic;
+        font-size: 20px;
+        font-weight: bold;
+        /*margin-top: 20px;*/
+    }
+    section.container section.about section:nth-child(3) section:nth-child(1) p:nth-child(3){
+        text-align: center;
+        font-family: MyriadArabic;
+        font-size: 13px;
+        font-weight: bold;
+        margin-top: 20px;
+        direction: rtl;
+        line-height: 20px;
+    }
+    section.container section.about section:nth-child(3) section:nth-child(2){
+        color:#b2b4b7;
+    }
+
+    section.container section.about section:nth-child(3) section:nth-child(2) p:nth-child(1){
+        text-align: center;
+    }
+    section.container section.about section:nth-child(3) section:nth-child(2) h3:nth-child(2){
+        text-align: center;
+        font-family: MyriadArabic;
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+    section.container section.about section:nth-child(3) section:nth-child(2) p:nth-child(3){
+        text-align: center;
+        font-family: MyriadArabic;
+        font-size: 13px;
+        font-weight: bold;
+        margin-top: 20px;
+        direction: rtl;
+        line-height: 20px;
+        color: #7e8287;
+    }
+
+    section.container section.about section:nth-child(3) section:nth-child(3) p:nth-child(1){
+        text-align: center;
+    }
+    section.container section.about section:nth-child(3) section:nth-child(3) h3:nth-child(2){
+        text-align: center;
+        font-family: MyriadArabic;
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+    section.container section.about section:nth-child(3) section:nth-child(3) p:nth-child(3){
+        text-align: center;
+        font-family: MyriadArabic;
+        font-size: 13px;
+        font-weight: bold;
+        margin-top: 20px;
+        direction: rtl;
+        line-height: 20px;
+
+    }
+    section.container section.about section:nth-child(3) section:nth-child(4) p:nth-child(1){
+        text-align: center;
+    }
+    section.container section.about section:nth-child(3) section:nth-child(4) h3:nth-child(2){
+        text-align: center;
+        font-family: MyriadArabic;
+        font-size: 16px;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+    section.container section.about section:nth-child(3) section:nth-child(4) p:nth-child(3){
+        text-align: center;
+        font-family: MyriadArabic;
+        font-size: 13px;
+        font-weight: bold;
+        margin-top: 20px;
+        direction: rtl;
+        line-height: 20px;
+    }
+
+    /******************** Make Services*********************/
+    section.container section.Services {
+        direction: rtl;
+        width: 100%;
+        height: 730px;
+        background: url("../images/Image02.png") center center no-repeat    fixed;
+        display:flex;
+        flex-flow: column nowrap;
+        font-family: MyriadArabic;
+        padding: 70px 0 70px 0;
+        box-sizing: border-box;
+    }
+
+    section.container section.Services section:nth-child(1) {
+        padding-right: 70px;
+    }
+
+    section.container section.Services section:nth-child(1)>h1{
+        width: 40%;
+        font-size: 36px;
+        font-weight: bold;
+        color: #02918c;
+        padding-bottom: 30px;
+    }
+
+    section.container section.Services section:nth-child(1)>h2{
+        width:320px;
+        height: 5px;
+        background-image: url("../images/Line.png");
+        background-repeat: no-repeat;
+        padding-bottom: 30px;
+    }
+
+    section.container section.Services section:nth-child(2) {
+        width: 300px;
+        align-items: center;
+        font-size: 11px;
+        color: #7e8287;
+        padding: 30px 80px 0 80px;
+        margin-bottom: 30px;
+    }
+
+    section.container section.Services>section:nth-child(3) {
+        display: flex;
+        flex-flow: wrap row;
+        width: 50%;
+        box-sizing: border-box;
+        padding: 0;
+        margin-right: 70px;
+    }
+
+    section.container section.Services section:nth-child(3) div.item {
+        display: flex;
+        flex-flow: wrap row;
+        padding: 0;
+        margin: 10px;
+        width: 80%;
+        box-sizing: border-box;
+    }
+
+    section.container section.Services section:nth-child(3) div.item>div:nth-child(1) {
+        width: 40%;
+        padding: 5px;
+        box-sizing: border-box;
+        float: right;
+    }
+
+    section.container section.Services section:nth-child(3) div.item>div:nth-child(1)>div:nth-child(1) {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    section.container section.Services section:nth-child(3) div.item>div:nth-child(1)>div:nth-child(1)>h1:nth-child(1){
+        width: 50%;
+        float: right;
+        box-sizing: border-box;
+        font-family: MyriadArabic;
+        font-size: 20px;
+        font-weight: bold;
+        /*padding-right: 20px;*/
+        color: #7e8287;
+    }
+
+    section.container section.Services section:nth-child(3) div.item>div:nth-child(1)>div:nth-child(1)>h1:nth-child(2){
+        float: left;
+        text-align: left;
+    }
+
+    section.container section.Services section:nth-child(3) div.item>div:nth-child(1)>div:nth-child(2){
+        float: right;
+        text-align: right;
+        font-size: 11px;
+        font-family: MyriadArabic;
+        color: #7e8287;
+    }
+
+    section.container section.Services section:nth-child(3)>.item>div:nth-child(2) {
+    }
+
+    section.container section.Services section:nth-child(3) div.item>div:nth-child(2) {
+        width: 40%;
+        padding: 5px;
+        box-sizing: border-box;
+        margin-right: 50px;
+    }
+
+    section.container section.Services section:nth-child(3) div.item>div:nth-child(2)>div:nth-child(1) {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    section.container section.Services section:nth-child(3) div.item>div:nth-child(2)>div:nth-child(1)>h1:nth-child(1){
+        width: 50%;
+        float: right;
+        box-sizing: border-box;
+        font-family: MyriadArabic;
+        font-size: 20px;
+        font-weight: bold;
+        color: #7e8287;
+        /*padding-right: 20px;*/
+    }
+
+    section.container section.Services section:nth-child(3) div.item>div:nth-child(2)>div:nth-child(1)>h1:nth-child(2){
+        float: left;
+        text-align: left;
+    }
+
+    section.container section.Services section:nth-child(3) div.item>div:nth-child(2)>div:nth-child(2){
+        float: right;
+        text-align: right;
+        font-size: 11px;
+        font-family: MyriadArabic;
+        color: #7e8287;
+    }
+    section.container section.Services section:nth-child(3) div.item>div:nth-child(3) {
+        width: 40%;
+        padding: 5px;
+        box-sizing: border-box;
+        float: right;
+    }
+
+    section.container section.Services section:nth-child(3) div.item>div:nth-child(3)>div:nth-child(1) {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    section.container section.Services section:nth-child(3) div.item>div:nth-child(3)>div:nth-child(1)>h1:nth-child(1){
+        width: 50%;
+        float: right;
+        box-sizing: border-box;
+        font-family: MyriadArabic;
+        font-size: 20px;
+        font-weight: bold;
+        /*padding-right: 20px;*/
+        color: #7e8287;
+    }
+
+    section.container section.Services section:nth-child(3) div.item>div:nth-child(3)>div:nth-child(1)>h1:nth-child(2){
+        float: left;
+        text-align: left;
+    }
+
+    section.container section.Services section:nth-child(3) div.item>div:nth-child(3)>div:nth-child(2){
+        float: right;
+        text-align: right;
+        font-size: 11px;
+        font-family: MyriadArabic;
+        color: #7e8287;
+    }
+
+
+    section.container section.Services section:nth-child(3) div.item>div:nth-child(4) {
+        width: 40%;
+        padding: 5px;
+        box-sizing: border-box;
+        float: right;
+        margin-right: 50px;
+    }
+
+    section.container section.Services section:nth-child(3) div.item>div:nth-child(4)>div:nth-child(1) {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    section.container section.Services section:nth-child(3) div.item>div:nth-child(4)>div:nth-child(1)>h1:nth-child(1){
+        width: 50%;
+        float: right;
+        box-sizing: border-box;
+        font-family: MyriadArabic;
+        font-size: 20px;
+        font-weight: bold;
+        color: #7e8287;
+    }
+
+    section.container section.Services section:nth-child(3) div.item>div:nth-child(4)>div:nth-child(1)>h1:nth-child(2){
+        float: left;
+        text-align: left;
+    }
+
+    section.container section.Services section:nth-child(3) div.item>div:nth-child(4)>div:nth-child(2){
+        float: right;
+        text-align: right;
+        font-size: 11px;
+        font-family: MyriadArabic;
+        color: #7e8287;
+    }
+    /******************** End Services*********************/
+    /******************** Make Sample*********************/
+    section.container section.sample{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        direction: rtl;
+
+    }
+
+    section.container section.sample>section.part1:nth-child(1){
+        width: 80%;
+        padding: 20px;
+        text-align: center;
+        margin: 50px auto;
+    }
+
+    section.container section.sample>section.part1>h1:nth-child(1){
+        font-family: MyriadArabic;
+        font-size: 42px;
+        text-align: center;
+        font-weight: bold;
+        color: #02918c;
+        margin: 20px auto;
+        box-sizing: border-box;
+    }
+
+    section.container section.sample>section.part1>h2:nth-child(2) {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    section.container section.sample>section.part1>p:nth-child(3) {
+        text-align: justify;
+        text;
+        font-family: MyriadArabic;
+        font-size: 16px;
+        font-weight: bold;
+        color: #abaeb1;
+        line-height: 30px;
+    }
+
+    section.container section.sample section.part2:nth-child(2){
+        width: 100%;
+        box-sizing: border-box;
+        background-color: lightblue;
+        padding: 0 !important;
+        display: flex;
+        flex-flow: row wrap;
+
+
+    }
+    section.container section.sample section.part2:nth-child(2) section.productSample{
+        margin: 0 !important;
+        padding: 0 !important;
+        width: 25%;
+        display: flex;
+        flex-flow: row-reverse wrap;
+        position: relative;
+        /*transform: scale(0,0);*/
+        /* transition: all 0.3s ease;*/
+
+    }
+    section.container section.sample section.part2:nth-child(2) section.productSample img:nth-child(1){
+        width: 100%;
+        height: 230px;
+        cursor: pointer;
+
+    }
+    section.container section.sample section.part2:nth-child(2) section.productSample section.imgHover:nth-child(2){
+        position: absolute;
+        top: 0;
+        left:0;
+        background-color: #239891;
+        z-index: 1;
+        width: 100%;
+        height: 220px;
+        text-align: center;
+        box-sizing: border-box;
+        padding: 30px;
+        transform: scale(0,0);
+        transition:all 0.3s ease;
+    }
+    section.container section.sample section.part2:nth-child(2) section.productSample:hover section.imgHover:nth-child(2){
+        transform: scale(1,1);
+    }
+    section.container section.sample section.part2:nth-child(2) section.productSample section.imgHover:nth-child(2)>h2:nth-child(1){
+        font-family: MyriadArabic;
+        text-align: center;
+        font-size: 28px;
+        font-weight: bold;
+        color: white;
+
+
+    }
+    section.container section.sample section.part2:nth-child(2) section.productSample section.imgHover:nth-child(2)>p:nth-child(2){
+        font-family: MyriadArabic;
+        font-size: 12px;
+        color: white;
+        line-height: 18px;
+    }
+    /******************** End Sample*********************/
+
+    /******************** Make contact*********************/
+    section.container section.contact{
+        width: 100%;
+        text-align: center;
+    }
+
+    section.container section.contact section.part1{
+        width:80%;
+        margin: 0 auto;
+    }
+
+    section.container section.contact>section.part1>h1{
+        font-family: MyriadArabic;
+        font-size: 60px;
+        font-weight: bold;
+        color: #02918c;
+        padding-top: 95px;
+    }
+    section.container section.contact>section.part1>h2{
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    section.container section.contact>section.part1>p{
+        font-family: MyriadArabic;
+        font-size: 13px;
+        color: #afb2b4;
+
+    }
+    /**** Make part2 ****/
+    section.container section.contact section.part2{
+        width: 100%;
+        padding:30px 0 30px 0;
+        background-color: #0b0b0b;
+        /*margin: 5px;*/
+
+    }
+
+    section.container section.contact section.part2 form{
+        width: 80%;
+        padding: 10px;
+        box-sizing: border-box;
+        margin: 0 auto;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+
+    }
+
+    section.container section.contact section.part2 form input[type=text]{
+        width: 500px;
+        text-align: center;
+        margin: 20px auto;
+        background-color: transparent;
+        border: none;
+        height: 45px;
+        border-bottom: 2px inset #898989;
+        color: white;
+    }
+    section.container section.contact section.part2 form input[type=text]:focus{
+        outline: none;
+    }
+
+    section.container section.contact section.part2 form input[type=email]{
+        width: 500px;
+        text-align: center;
+        margin: 20px auto;
+        background-color: transparent;
+        border: none;
+        height: 45px;
+        border-bottom: 2px inset #898989;
+        color: white;
+    }
+    section.container section.contact section.part2 form input[type=email]:focus{
+        outline: none;
+    }
+    section.container section.contact section.part2 form textarea:nth-child(3){
+        width: 650px;
+        text-align: center;
+        margin: 20px auto;
+        resize: none;
+        background-color: transparent;
+        border: none;
+        border-bottom: 2px inset #898989;
+        height: 120px;
+        font-size: 20px;
+        color: white;
+    }
+    section.container section.contact section.part2 form textarea:nth-child(3):focus{
+        outline: none;
+    }
+    section.container section.contact section.part2 form input[type=submit]{
+        width: 200px;
+        text-align: center;
+        margin: 0 auto;
+        background-color: #cfc91d;
+        color: #000000;
+        font-family: MyriadArabic;
+        font-size: 20px;
+    }
+
+    /**** End part2 ****/
+    /******************** End contact*********************/
+    /******************** Make footer *********************/
+
+    section.container section.footer{
+        width: 100%;
+        height: 70px;
+        background-color: #000000;
+        color: #525252;
+        font-family: MyriadArabic;
+        font-size: 17px;
+        font-weight: bold;
+        text-align: center;
+        line-height: 20px;
+        padding-top:20px ;
+    }
+    /******************** End footer*********************/
+
+}
+
+
+@media (min-width: 560px) and (max-width: 768px) {
+    /*******************StartTopNavigation******************/
+    section.container section.TopNavigation{
+        width: 100%;
+        height: 240px;
+        background-color: #02918c;
+    }
+    section.container section.TopNavigation nav{
+        width: inherit;
+        height: inherit;
+    }
+    section.container section.TopNavigation nav ul{
+        width: inherit;
+        height: inherit;
+    }
+    section.container section.TopNavigation nav>ul>li{
+        list-style: none;
+
+    }
+    section.container section.TopNavigation nav>ul>li:nth-child(1){
+        width: 100%;
+        height:40px;
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 40px;
+        font-weight: bold;
+        font-family: "MyriadArabic";
+        text-align: center;
+        box-sizing: border-box;
+
+    }
+
+    section.container section.TopNavigation nav>ul>li:nth-child(2){
+        width: 100%;
+        height: 200px;
+        float: left;
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: "MyriadArabic";
+        line-height: 40px;
+        box-sizing: border-box;
+    }
+    section.container section.TopNavigation nav>ul>li>ul{
+        width: 100%;
+        height: inherit;
+        display: flex;
+        direction: rtl;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        list-style: none;
+        justify-content: center;
+        text-align: center;
+        box-sizing: border-box;
+
+
+    }
+    section.container section.TopNavigation nav>ul>li>ul>li {
+        width: 100%;
+        height: 40px;
+        text-align: center;
+        justify-content: center;
+
+    }
+    section.container section.TopNavigation nav>ul>li>ul>li>a{
+        display: block;
+        width: inherit;
+        height: inherit;
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: "MyriadArabic";
+        box-shadow: 5px 5px 5px whitesmoke;
+        transition: all 0.5s ease;
+
+    }
+    section.container section.TopNavigation nav>ul>li>ul>li>a:hover{
+
+        box-shadow: 5px 5px 15px darkgray;
+
+
+    }
+    /*********************End TopNavigation*********************/
+
+    /********************Make MainHeader********************/
+    section.container section.MainHeader{
+        width: 100%;
+        height: 730px;
+        background: url("../images/Image01.jpg") center center no-repeat fixed;
+
+        display: flex;
+        flex-flow: row nowrap;
+        background-size: cover;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+    /********************End MainHeader********************/
+    /********************Make MainText********************/
+    section.container section.MainHeader section.MainText{
+        width: 650px;
+        height: 315px;
+        box-sizing: border-box;
+    }
+    /********************End MainText********************/
+
+    /********************Make h1********************/
+    section.container section.MainHeader section.MainText h1{
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: "MyriadArabic";
+        color: #ffffff;
+        margin-bottom: 90px;
+
+    }
+    /********************End h1********************/
+
+
+    /********************Make p********************/
+    section.container section.MainHeader section.MainText p{
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    /********************End p********************/
+
+    /********************Make a********************/
+    section.container section.MainHeader section.MainText a{
+        display: block;
+        width: 150px;
+        height: 45px;
+        text-align: center;
+        color: #000000;
+        text-decoration: none;
+        font-size: 30px;
+        font-weight: bold;
+        font-family: "MyriadArabic";
+        margin: 0 auto;
+        background-color: #cfc91d;
+        line-height: 45px;
+        border-radius: 5px;
+
+    }
+    /********************End a********************/
+    /******************** Make About*********************/
+    section.container section.about{
+        width: 100%;
+        height: 750px;
+        padding: 50px 0 50px 0;
+        margin: 0 auto;
+        box-sizing: border-box;
+    }
+    /******************** End About*********************/
+
+    section.container section.about section:nth-child(1){
+        /*width: 50%;*/
+        margin: 0 auto;
+        text-align: center;
+        text-justify: auto;
+
+    }
+    section.container section.about section:nth-child(1) h1{
+        font-family: "MyriadArabic";
+        font-size: 40px;
+        color: #02918c;
+        margin-bottom: 25px;
+    }
+    section.container section.about section:nth-child(1) p{
+        margin-bottom: 30px;
+    }
+    section.container section.about>section:nth-child(2){
+        text-align: center;
+        width: 500px;
+        /*margin-top: 30px;*/
+        margin-left: calc(50% - 250px);
+        margin-bottom: 30px;
+        font-family: "MyriadArabic";
+        font-size: 13px;
+        color: #abaeb1;
+    }
+
+
+    section.container section.about section:nth-child(2) h4{
+        font-family: "MyriadArabic";
+        font-size: 16px;
+        line-height: 35px;
+        direction: rtl;
+
+    }
+    section.container section.about section:nth-child(3){
+        width: 600px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: nowrap;
+        color: #7e8287;
+        text-align: center;
+        height: auto;
+    }
+    section.container section.about section:nth-child(3) section:nth-child(1){
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        padding: 20px 2px 0 2px;
+    }
+    section.container section.about section:nth-child(3) section:nth-child(2){
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        padding: 20px 2px 0 2px;
+
+    }
+    section.container section.about section:nth-child(3) section:nth-child(3){
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        padding: 20px 2px 0 2px;
+    }
+    section.container section.about section:nth-child(3) section:nth-child(4){
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        padding: 20px 2px 0 2px;
+    }
+    section.container section.about section:nth-child(3) section:nth-child(1) p:nth-child(1){
+        text-align: center;
+    }
+    section.container section.about section:nth-child(3) section:nth-child(1) p:nth-child(1) img{
+        width: 32px;
+        height: 23px;
+    }
+    section.container section.about section:nth-child(3) section:nth-child(1) h3:nth-child(2){
+        text-align: center;
+        font-family: MyriadArabic;
+        font-size: 20px;
+        font-weight: bold;
+        /*margin-top: 20px;*/
+    }
+    section.container section.about section:nth-child(3) section:nth-child(1) p:nth-child(3){
+        text-align: center;
+        font-family: MyriadArabic;
+        font-size: 13px;
+        font-weight: bold;
+        margin-top: 20px;
+        direction: rtl;
+        line-height: 20px;
+    }
+    section.container section.about section:nth-child(3) section:nth-child(2){
+        color:#b2b4b7;
+    }
+
+    section.container section.about section:nth-child(3) section:nth-child(2) p:nth-child(1){
+        text-align: center;
+    }
+    section.container section.about section:nth-child(3) section:nth-child(2) h3:nth-child(2){
+        text-align: center;
+        font-family: MyriadArabic;
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 20px;
+
+    }
+    section.container section.about section:nth-child(3) section:nth-child(2) p:nth-child(3){
+        text-align: center;
+        font-family: MyriadArabic;
+        font-size: 13px;
+        font-weight: bold;
+        margin-top: 20px;
+        direction: rtl;
+        line-height: 20px;
+        color: #7e8287;
+    }
+
+
+    section.container section.about section:nth-child(3) section:nth-child(3) p:nth-child(1){
+        text-align: center;
+        width: 161px;
+    }
+    section.container section.about section:nth-child(3) section:nth-child(3) h3:nth-child(2){
+        text-align: center;
+        font-family: MyriadArabic;
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+    section.container section.about section:nth-child(3) section:nth-child(3) p:nth-child(3){
+        text-align: center;
+        font-family: MyriadArabic;
+        font-size: 13px;
+        font-weight: bold;
+        margin-top: 20px;
+        direction: rtl;
+        line-height: 20px;
+
+    }
+    section.container section.about section:nth-child(3) section:nth-child(4) p:nth-child(1){
+        text-align: center;
+    }
+    section.container section.about section:nth-child(3) section:nth-child(4) h3:nth-child(2){
+        text-align: center;
+        font-family: MyriadArabic;
+        font-size: 16px;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+    section.container section.about section:nth-child(3) section:nth-child(4) p:nth-child(3){
+        text-align: center;
+        font-family: MyriadArabic;
+        font-size: 13px;
+        font-weight: bold;
+        margin-top: 20px;
+        direction: rtl;
+        line-height: 20px;
+    }
+    /******************** Make Services*********************/
+    section.container section.Services {
+        direction: rtl;
+        width: 100%;
+        height: 730px;
+        background: url("../images/Image02.png") center center no-repeat fixed;
+        display:flex;
+        flex-flow: column;
+        font-family: MyriadArabic;
+        padding: 50px 0 50px 0;
+        box-sizing: border-box;
+    }
+
+    section.container section.Services section:nth-child(1) {
+        padding-right: 15px;
+    }
+
+    section.container section.Services section:nth-child(1)>h1{
+        width: 40%;
+        font-size: 34px;
+        font-weight: bold;
+        color: #02918c;
+        padding-bottom: 10px;
+    }
+
+    section.container section.Services section:nth-child(1)>h2{
+        width:290px;
+        height: 5px;
+        background-image: url("../images/Line.png");
+        background-repeat: no-repeat;
+        padding-bottom: 10px;
+    }
+
+    section.container section.Services section:nth-child(2) {
+        width: 280px;
+        align-items: center;
+        font-size: 10px;
+        color: #7e8287;
+        padding: 10px 10px 0 80px;
+        margin-bottom: 20px;
+    }
+    section.container section.Services section:nth-child(2) p {
+        width: 280px;
+        align-items: center;
+        font-size: 10px;
+        color: #7e8287;
+        padding: 10px 10px 0 80px;
+        margin-bottom: 20px;
+    }
+
+    section.container section.Services>section:nth-child(3) {
+        display: flex;
+        flex-flow: wrap row;
+        width: 50%;
+        box-sizing: border-box;
+        padding: 0;
+        margin-right: 5px;
+    }
+
+    section.container section.Services section:nth-child(3) div.item {
+        display: flex;
+        flex-flow: wrap row;
+        padding: 0;
+        margin: 10px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    section.container section.Services section:nth-child(3) div.item>div:nth-child(1) {
+        width: 40%;
+        padding: 5px;
+        box-sizing: border-box;
+        float: right;
+    }
+
+    section.container section.Services section:nth-child(3) div.item>div:nth-child(1)>div:nth-child(1) {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    section.container section.Services section:nth-child(3) div.item>div:nth-child(1)>div:nth-child(1)>h1:nth-child(1){
+        width: 50%;
+        float: right;
+        box-sizing: border-box;
+        font-family: MyriadArabic;
+        font-size: 20px;
+        font-weight: bold;
+        /*padding-right: 20px;*/
+        color: #7e8287;
+    }
+
+    section.container section.Services section:nth-child(3) div.item>div:nth-child(1)>div:nth-child(1)>h1:nth-child(2){
+        float: left;
+        text-align: left;
+        width: 20px;
+        height: 20px;
+    }
+
+    section.container section.Services section:nth-child(3) div.item>div:nth-child(1)>div:nth-child(2){
+        float: right;
+        text-align: right;
+        font-size: 11px;
+        font-family: MyriadArabic;
+        color: #7e8287;
+        margin-top: 20px;
+    }
+
+    section.container section.Services section:nth-child(3)>.item>div:nth-child(2) {
+    }
+
+    section.container section.Services section:nth-child(3) div.item>div:nth-child(2) {
+        width: 40%;
+        padding: 5px;
+        box-sizing: border-box;
+        margin-right: 10px;
+    }
+
+    section.container section.Services section:nth-child(3) div.item>div:nth-child(2)>div:nth-child(1) {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    section.container section.Services section:nth-child(3) div.item>div:nth-child(2)>div:nth-child(1)>h1:nth-child(1){
+        width: 50%;
+        float: right;
+        box-sizing: border-box;
+        font-family: MyriadArabic;
+        font-size: 20px;
+        font-weight: bold;
+        color: #7e8287;
+        /*padding-right: 20px;*/
+    }
+
+    section.container section.Services section:nth-child(3) div.item>div:nth-child(2)>div:nth-child(1)>h1:nth-child(2){
+        float: left;
+        text-align: left;
+        width: 20px;
+        height: 20px;
+    }
+
+    section.container section.Services section:nth-child(3) div.item>div:nth-child(2)>div:nth-child(2){
+        float: right;
+        text-align: right;
+        font-size: 11px;
+        font-family: MyriadArabic;
+        color: #7e8287;
+        margin-top: 20px;
+    }
+    section.container section.Services section:nth-child(3) div.item>div:nth-child(3) {
+        width: 40%;
+        padding: 5px;
+        box-sizing: border-box;
+        float: right;
+    }
+
+    section.container section.Services section:nth-child(3) div.item>div:nth-child(3)>div:nth-child(1) {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    section.container section.Services section:nth-child(3) div.item>div:nth-child(3)>div:nth-child(1)>h1:nth-child(1){
+        width: 50%;
+        float: right;
+        box-sizing: border-box;
+        font-family: MyriadArabic;
+        font-size: 20px;
+        font-weight: bold;
+        /*padding-right: 20px;*/
+        color: #7e8287;
+    }
+
+    section.container section.Services section:nth-child(3) div.item>div:nth-child(3)>div:nth-child(1)>h1:nth-child(2){
+        float: left;
+        text-align: left;
+        width: 20px;
+        height: 20px;
+    }
+
+    section.container section.Services section:nth-child(3) div.item>div:nth-child(3)>div:nth-child(2){
+        float: right;
+        text-align: right;
+        font-size: 11px;
+        font-family: MyriadArabic;
+        color: #7e8287;
+        margin-top: 20px;
+    }
+
+
+    section.container section.Services section:nth-child(3) div.item>div:nth-child(4) {
+        width: 40%;
+        padding: 5px;
+        box-sizing: border-box;
+        float: right;
+        margin-right: 10px;
+    }
+
+    section.container section.Services section:nth-child(3) div.item>div:nth-child(4)>div:nth-child(1) {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    section.container section.Services section:nth-child(3) div.item>div:nth-child(4)>div:nth-child(1)>h1:nth-child(1){
+        width: 50%;
+        float: right;
+        box-sizing: border-box;
+        font-family: MyriadArabic;
+        font-size: 20px;
+        font-weight: bold;
+        color: #7e8287;
+    }
+
+    section.container section.Services section:nth-child(3) div.item>div:nth-child(4)>div:nth-child(1)>h1:nth-child(2){
+        float: left;
+        text-align: left;
+        width: 20px;
+        height: 20px;
+    }
+
+    section.container section.Services section:nth-child(3) div.item>div:nth-child(4)>div:nth-child(2){
+        float: right;
+        text-align: right;
+        font-size: 11px;
+        font-family: MyriadArabic;
+        color: #7e8287;
+        margin-top: 20px;
+    }
+    /******************** End Services*********************/
+    /******************** Make Sample*********************/
+    section.container section.sample{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        direction: rtl;
+
+    }
+
+    section.container section.sample>section.part1:nth-child(1){
+        width: 80%;
+        padding: 20px;
+        text-align: center;
+        margin: 50px auto;
+    }
+
+    section.container section.sample>section.part1>h1:nth-child(1){
+        font-family: MyriadArabic;
+        font-size: 42px;
+        text-align: center;
+        font-weight: bold;
+        color: #02918c;
+        margin: 20px auto;
+        box-sizing: border-box;
+    }
+
+    section.container section.sample>section.part1>h2:nth-child(2) {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    section.container section.sample>section.part1>p:nth-child(3) {
+        text-align: justify;
+        text;
+        font-family: MyriadArabic;
+        font-size: 16px;
+        font-weight: bold;
+        color: #abaeb1;
+        line-height: 30px;
+    }
+
+    section.container section.sample section.part2:nth-child(2){
+        width: 100%;
+        box-sizing: border-box;
+        background-color: lightblue;
+        padding: 0 !important;
+        display: flex;
+        flex-flow: row wrap;
+
+
+    }
+    section.container section.sample section.part2:nth-child(2) section.productSample{
+        margin: 0 !important;
+        padding: 0 !important;
+        width: 25%;
+        display: flex;
+        flex-flow: row-reverse wrap;
+        position: relative;
+        /*transform: scale(0,0);*/
+        /* transition: all 0.3s ease;*/
+
+    }
+    section.container section.sample section.part2:nth-child(2) section.productSample img:nth-child(1){
+        width: 100%;
+        height: 230px;
+        cursor: pointer;
+
+    }
+    section.container section.sample section.part2:nth-child(2) section.productSample section.imgHover:nth-child(2){
+        position: absolute;
+        top: 0;
+        left:0;
+        background-color: #239891;
+        z-index: 1;
+        width: 100%;
+        height: 220px;
+        text-align: center;
+        box-sizing: border-box;
+        padding: 20px;
+        transform: scale(0,0);
+        transition:all 0.3s ease;
+    }
+    section.container section.sample section.part2:nth-child(2) section.productSample:hover section.imgHover:nth-child(2){
+        transform: scale(1,1);
+    }
+    section.container section.sample section.part2:nth-child(2) section.productSample section.imgHover:nth-child(2)>h2:nth-child(1){
+        font-family: MyriadArabic;
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+
+
+    }
+    section.container section.sample section.part2:nth-child(2) section.productSample section.imgHover:nth-child(2)>p:nth-child(2){
+        font-family: MyriadArabic;
+        font-size: 10px;
+        color: white;
+        line-height: 18px;
+    }
+    /******************** End Sample*********************/
+
+    /******************** Make contact*********************/
+    section.container section.contact{
+        width: 100%;
+        text-align: center;
+    }
+
+    section.container section.contact section.part1{
+        width:80%;
+        margin: 0 auto;
+    }
+
+    section.container section.contact>section.part1>h1{
+        font-family: MyriadArabic;
+        font-size: 60px;
+        font-weight: bold;
+        color: #02918c;
+        padding-top: 95px;
+    }
+    section.container section.contact>section.part1>h2{
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    section.container section.contact>section.part1>p{
+        font-family: MyriadArabic;
+        font-size: 13px;
+        color: #afb2b4;
+    }
+
+    /**** Make part2 ****/
+    section.container section.contact section.part2{
+        width: 100%;
+        padding:30px 0 30px 0;
+        background-color: #0b0b0b;
+        /*margin: 5px;*/
+
+    }
+
+    section.container section.contact section.part2 form{
+        width: 80%;
+        padding: 10px;
+        box-sizing: border-box;
+        margin: 0 auto;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+
+    }
+
+    section.container section.contact section.part2 form input[type=text]{
+        width: 400px;
+        text-align: center;
+        margin: 20px auto;
+        background-color: transparent;
+        border: none;
+        height: 45px;
+        border-bottom: 2px inset #898989;
+        color: white;
+    }
+    section.container section.contact section.part2 form input[type=text]:focus{
+        outline: none;
+    }
+
+    section.container section.contact section.part2 form input[type=email]{
+        width: 400px;
+        text-align: center;
+        margin: 20px auto;
+        background-color: transparent;
+        border: none;
+        height: 45px;
+        border-bottom: 2px inset #898989;
+        color: white;
+    }
+    section.container section.contact section.part2 form input[type=email]:focus{
+        outline: none;
+    }
+    section.container section.contact section.part2 form textarea:nth-child(3){
+        width: 480px;
+        text-align: center;
+        margin: 20px auto;
+        resize: none;
+        background-color: transparent;
+        border: none;
+        border-bottom: 2px inset #898989;
+        height: 120px;
+        font-size: 20px;
+        color: white;
+    }
+    section.container section.contact section.part2 form textarea:nth-child(3):focus{
+        outline: none;
+    }
+    section.container section.contact section.part2 form input[type=submit]{
+        width: 200px;
+        text-align: center;
+        margin: 0 auto;
+        background-color: #cfc91d;
+        color: #000000;
+        font-family: MyriadArabic;
+        font-size: 20px;
+    }
+
+    /**** End part2 ****/
+    /******************** End contact*********************/
+
+    /******************** Make footer *********************/
+
+    section.container section.footer{
+        width: 100%;
+        height: 70px;
+        background-color: #000000;
+        color: #525252;
+        font-family: MyriadArabic;
+        font-size: 17px;
+        font-weight: bold;
+        text-align: center;
+        line-height: 20px;
+        padding-top:20px ;
+    }
+    /******************** End footer*********************/
+
+
+
+
+}
+
+@media (max-width: 560px) {
+    /*******************StartTopNavigation******************/
+    section.container section.TopNavigation{
+        width: 100%;
+        height: 240px;
+        background-color: #02918c;
+    }
+    section.container section.TopNavigation nav{
+        width: inherit;
+        height: inherit;
+    }
+    section.container section.TopNavigation nav ul{
+        width: inherit;
+        height: inherit;
+    }
+    section.container section.TopNavigation nav>ul>li{
+        list-style: none;
+
+    }
+    section.container section.TopNavigation nav>ul>li:nth-child(1){
+        width: 100%;
+        height:40px;
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 40px;
+        font-weight: bold;
+        font-family: "MyriadArabic";
+        text-align: center;
+        box-sizing: border-box;
+
+    }
+
+    section.container section.TopNavigation nav>ul>li:nth-child(2){
+        width: 100%;
+        height: 200px;
+        float: left;
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: "MyriadArabic";
+        line-height: 40px;
+        box-sizing: border-box;
+    }
+    section.container section.TopNavigation nav>ul>li>ul{
+        width: 100%;
+        height: inherit;
+        display: flex;
+        direction: rtl;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        list-style: none;
+        justify-content: center;
+        text-align: center;
+        box-sizing: border-box;
+
+
+    }
+    section.container section.TopNavigation nav>ul>li>ul>li {
+        width: 100%;
+        height: 40px;
+        text-align: center;
+        justify-content: center;
+
+    }
+    section.container section.TopNavigation nav>ul>li>ul>li>a{
+        display: block;
+        width: inherit;
+        height: inherit;
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: "MyriadArabic";
+        box-shadow: 5px 5px 5px whitesmoke;
+        transition: all 0.5s ease;
+
+    }
+    section.container section.TopNavigation nav>ul>li>ul>li>a:hover{
+
+        box-shadow: 5px 5px 15px darkgray;
+
+
+    }
+    /***************************EndTopNavigation*******************/
+    /********************Make MainHeader********************/
+    section.container section.MainHeader{
+        width: 100%;
+        height: 730px;
+        background: url("../images/Image01.jpg") center center no-repeat fixed;
+        display: flex;
+        flex-flow: row nowrap;
+        background-size: cover;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+    /********************End MainHeader********************/
+    /********************Make MainText********************/
+    section.container section.MainHeader section.MainText{
+        width: 400px;
+        height: 315px;
+        box-sizing: border-box;
+    }
+    /********************End MainText********************/
+
+    /********************Make h1********************/
+    section.container section.MainHeader section.MainText h1{
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: "MyriadArabic";
+        color: #ffffff;
+        margin-bottom: 80px;
+
+    }
+    /********************End h1********************/
+
+
+    /********************Make p********************/
+    section.container section.MainHeader section.MainText p{
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    /********************End p********************/
+
+    /********************Make a********************/
+    section.container section.MainHeader section.MainText a{
+        display: block;
+        width: 130px;
+        height: 40px;
+        text-align: center;
+        color: #000000;
+        text-decoration: none;
+        font-size: 25px;
+        font-weight: bold;
+        font-family: "MyriadArabic";
+        margin: 0 auto;
+        background-color: #cfc91d;
+        line-height: 40px;
+        border-radius: 5px;
+
+    }
+    /********************End a********************/
+    /******************** Make About*********************/
+    section.container section.about{
+        width: 100%;
+        height: 750px;
+        padding: 40px 0 40px 0;
+        margin: 0 auto;
+
+    }
+    /******************** End About*********************/
+
+    section.container section.about section:nth-child(1){
+        /*width: 50%;*/
+        margin: 0 auto;
+        text-align: center;
+        text-justify: auto;
+    }
+    section.container section.about section:nth-child(1) h1{
+        font-family: "MyriadArabic";
+        font-size: 20px;
+        color: #02918c;
+        margin-bottom: 5px;
+    }
+    section.container section.about section:nth-child(1) p{
+        margin-bottom: 5px;
+    }
+    section.container section.about>section:nth-child(2){
+        text-align: center;
+        width: 500px;
+        /*margin-top: 30px;*/
+        margin-left: calc(50% - 250px);
+        margin-bottom:5px;
+        font-family: "MyriadArabic";
+        font-size: 10px;
+        color: #abaeb1;
+    }
+
+
+    section.container section.about section:nth-child(2) h4{
+        font-family: "MyriadArabic";
+        font-size: 16px;
+        line-height: 35px;
+        direction: rtl;
+
+    }
+    section.container section.about section:nth-child(3){
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        color: #7e8287;
+        text-align: center;
+        /*height: 2000px;*/
+        box-sizing: border-box;
+    }
+    section.container section.about section:nth-child(3) section:nth-child(1){
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        padding: 1px 2px 0 2px;
+        border: 2px solid #022f8a;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    section.container section.about section:nth-child(3) section:nth-child(2){
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        padding: 1px 2px 0 2px;
+        border: 2px solid #022f8a;
+        margin-right: 20px;
+        margin-left: 20px;
+
+    }
+    section.container section.about section:nth-child(3) section:nth-child(3){
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        padding: 1px 2px 0 2px;
+        border: 2px solid #022f8a;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    section.container section.about section:nth-child(3) section:nth-child(4){
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        padding: 1px 2px 0 2px;
+        border: 2px solid #022f8a;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    section.container section.about section:nth-child(3) section:nth-child(1) p:nth-child(1){
+        text-align: center;
+    }
+    section.container section.about section:nth-child(3) section:nth-child(1) p:nth-child(1) img{
+        width: 30px;
+        height: 20px;
+        margin: 1px auto;
+    }
+    section.container section.about section:nth-child(3) section:nth-child(1) h3:nth-child(2){
+        text-align: center;
+        font-family: MyriadArabic;
+        font-size: 13px;
+        font-weight: bold;
+        /*margin-top: 20px;*/
+    }
+    section.container section.about section:nth-child(3) section:nth-child(1) p:nth-child(3){
+        text-align: center;
+        font-family: MyriadArabic;
+        font-size: 13px;
+        font-weight: bold;
+        margin-top: 10px;
+        direction: rtl;
+        line-height: 20px;
+    }
+    section.container section.about section:nth-child(3) section:nth-child(2){
+        color:#b2b4b7;
+    }
+
+    section.container section.about section:nth-child(3) section:nth-child(2) p:nth-child(1){
+        width: 30px;
+        height: 20px;
+        margin: 1px auto;
+    }
+    section.container section.about section:nth-child(3) section:nth-child(2) h3:nth-child(2){
+        text-align: center;
+        font-family: MyriadArabic;
+        font-size: 13px;
+        font-weight: bold;
+        margin-top: 20px;
+
+    }
+    section.container section.about section:nth-child(3) section:nth-child(2) p:nth-child(3){
+        text-align: center;
+        font-family: MyriadArabic;
+        font-size: 13px;
+        font-weight: bold;
+        margin-top: 10px;
+        direction: rtl;
+        line-height: 20px;
+        color: #7e8287;
+    }
+
+
+    section.container section.about section:nth-child(3) section:nth-child(3) p:nth-child(1){
+        width: 30px;
+        height: 20px;
+        margin: 1px auto;
+    }
+    section.container section.about section:nth-child(3) section:nth-child(3) h3:nth-child(2){
+        text-align: center;
+        font-family: MyriadArabic;
+        font-size: 13px;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+    section.container section.about section:nth-child(3) section:nth-child(3) p:nth-child(3){
+        text-align: center;
+        font-family: MyriadArabic;
+        font-size: 13px;
+        font-weight: bold;
+        margin-top: 10px;
+        direction: rtl;
+        line-height: 20px;
+
+    }
+    section.container section.about section:nth-child(3) section:nth-child(4) p:nth-child(1){
+        text-align: center;
+    }
+    section.container section.about section:nth-child(3) section:nth-child(4) h3:nth-child(2){
+        text-align: center;
+        font-family: MyriadArabic;
+        font-size: 13px;
+        font-weight: bold;
+        margin-top: 10px;
+    }
+    section.container section.about section:nth-child(3) section:nth-child(4) p:nth-child(3){
+        text-align: center;
+        font-family: MyriadArabic;
+        font-size: 13px;
+        font-weight: bold;
+        margin-top: 10px;
+        direction: rtl;
+        line-height: 20px;
+    }
+    /******************** Make Services*********************/
+    section.container section.Services {
+        direction: rtl;
+        width: 100%;
+        height: 730px;
+        background: url("../images/Image02.png") center center no-repeat fixed;
+        display:flex;
+        flex-flow: column;
+        font-family: MyriadArabic;
+        padding: 50px 0 50px 0;
+        box-sizing: border-box;
+    }
+
+    section.container section.Services section:nth-child(1) {
+        padding-right: 5px;
+    }
+
+    section.container section.Services section:nth-child(1)>h1{
+        width: 40%;
+        font-size: 34px;
+        font-weight: bold;
+        color: #02918c;
+        padding-bottom: 10px;
+    }
+
+    section.container section.Services section:nth-child(1)>h2{
+        width:240px;
+        height: 5px;
+        background-image: url("../images/Line.png");
+        background-repeat: no-repeat;
+        padding-bottom: 10px;
+
+    }
+
+    section.container section.Services section:nth-child(2) {
+        width: 280px;
+        align-items: center;
+        font-size: 10px;
+        color: #7e8287;
+        padding: 10px 10px 0 80px;
+        margin-bottom: 20px;
+    }
+    section.container section.Services section:nth-child(2) p {
+        width: 200px;
+        align-items: center;
+        font-size: 10px;
+        color: #7e8287;
+        padding: 10px 10px 0 80px;
+        margin-bottom: 20px;
+    }
+
+    section.container section.Services>section:nth-child(3) {
+        display: flex;
+        flex-flow: wrap row;
+        width: 50%;
+        box-sizing: border-box;
+        padding: 0;
+        margin-right: 5px;
+    }
+
+    section.container section.Services section:nth-child(3) div.item {
+        display: flex;
+        flex-flow: wrap row;
+        padding: 0;
+        margin: 10px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    section.container section.Services section:nth-child(3) div.item>div:nth-child(1) {
+        width: 40%;
+        padding: 5px;
+        box-sizing: border-box;
+        float: right;
+    }
+
+    section.container section.Services section:nth-child(3) div.item>div:nth-child(1)>div:nth-child(1) {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    section.container section.Services section:nth-child(3) div.item>div:nth-child(1)>div:nth-child(1)>h1:nth-child(1){
+        width: 50%;
+        float: right;
+        box-sizing: border-box;
+        font-family: MyriadArabic;
+        font-size: 20px;
+        font-weight: bold;
+        /*padding-right: 20px;*/
+        color: #7e8287;
+    }
+
+    section.container section.Services section:nth-child(3) div.item>div:nth-child(1)>div:nth-child(1)>h1:nth-child(2){
+        float: left;
+        text-align: left;
+        width: 20px;
+        height: 20px;
+    }
+
+    section.container section.Services section:nth-child(3) div.item>div:nth-child(1)>div:nth-child(2){
+        float: right;
+        text-align: right;
+        font-size: 11px;
+        font-family: MyriadArabic;
+        color: #7e8287;
+        margin-top: 20px;
+    }
+
+    section.container section.Services section:nth-child(3)>.item>div:nth-child(2) {
+    }
+
+    section.container section.Services section:nth-child(3) div.item>div:nth-child(2) {
+        width: 40%;
+        padding: 5px;
+        box-sizing: border-box;
+        margin-right: 10px;
+    }
+
+    section.container section.Services section:nth-child(3) div.item>div:nth-child(2)>div:nth-child(1) {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    section.container section.Services section:nth-child(3) div.item>div:nth-child(2)>div:nth-child(1)>h1:nth-child(1){
+        width: 50%;
+        float: right;
+        box-sizing: border-box;
+        font-family: MyriadArabic;
+        font-size: 20px;
+        font-weight: bold;
+        color: #7e8287;
+        /*padding-right: 20px;*/
+    }
+
+    section.container section.Services section:nth-child(3) div.item>div:nth-child(2)>div:nth-child(1)>h1:nth-child(2){
+        float: left;
+        text-align: left;
+        width: 20px;
+        height: 20px;
+    }
+
+    section.container section.Services section:nth-child(3) div.item>div:nth-child(2)>div:nth-child(2){
+        float: right;
+        text-align: right;
+        font-size: 11px;
+        font-family: MyriadArabic;
+        color: #7e8287;
+        margin-top: 20px;
+    }
+    section.container section.Services section:nth-child(3) div.item>div:nth-child(3) {
+        width: 40%;
+        padding: 5px;
+        box-sizing: border-box;
+        float: right;
+    }
+
+    section.container section.Services section:nth-child(3) div.item>div:nth-child(3)>div:nth-child(1) {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    section.container section.Services section:nth-child(3) div.item>div:nth-child(3)>div:nth-child(1)>h1:nth-child(1){
+        width: 50%;
+        float: right;
+        box-sizing: border-box;
+        font-family: MyriadArabic;
+        font-size: 20px;
+        font-weight: bold;
+        /*padding-right: 20px;*/
+        color: #7e8287;
+    }
+
+    section.container section.Services section:nth-child(3) div.item>div:nth-child(3)>div:nth-child(1)>h1:nth-child(2){
+        float: left;
+        text-align: left;
+        width: 20px;
+        height: 20px;
+    }
+
+    section.container section.Services section:nth-child(3) div.item>div:nth-child(3)>div:nth-child(2){
+        float: right;
+        text-align: right;
+        font-size: 11px;
+        font-family: MyriadArabic;
+        color: #7e8287;
+        margin-top: 20px;
+    }
+
+
+    section.container section.Services section:nth-child(3) div.item>div:nth-child(4) {
+        width: 40%;
+        padding: 5px;
+        box-sizing: border-box;
+        float: right;
+        margin-right: 10px;
+    }
+
+    section.container section.Services section:nth-child(3) div.item>div:nth-child(4)>div:nth-child(1) {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    section.container section.Services section:nth-child(3) div.item>div:nth-child(4)>div:nth-child(1)>h1:nth-child(1){
+        width: 50%;
+        float: right;
+        box-sizing: border-box;
+        font-family: MyriadArabic;
+        font-size: 20px;
+        font-weight: bold;
+        color: #7e8287;
+    }
+
+    section.container section.Services section:nth-child(3) div.item>div:nth-child(4)>div:nth-child(1)>h1:nth-child(2){
+        float: left;
+        text-align: left;
+        width: 20px;
+        height: 20px;
+    }
+
+    section.container section.Services section:nth-child(3) div.item>div:nth-child(4)>div:nth-child(2){
+        float: right;
+        text-align: right;
+        font-size: 11px;
+        font-family: MyriadArabic;
+        color: #7e8287;
+        margin-top: 20px;
+    }
+    /******************** End Services*********************/
+    /******************** Make Sample*********************/
+    section.container section.sample{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        direction: rtl;
+
+    }
+
+    section.container section.sample>section.part1:nth-child(1){
+        width: 80%;
+        padding: 20px;
+        text-align: center;
+        margin: 50px auto;
+    }
+
+    section.container section.sample>section.part1>h1:nth-child(1){
+        font-family: MyriadArabic;
+        font-size: 42px;
+        text-align: center;
+        font-weight: bold;
+        color: #02918c;
+        margin: 20px auto;
+        box-sizing: border-box;
+    }
+
+    section.container section.sample>section.part1>h2:nth-child(2) {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    section.container section.sample>section.part1>p:nth-child(3) {
+        text-align: justify;
+        text;
+        font-family: MyriadArabic;
+        font-size: 16px;
+        font-weight: bold;
+        color: #abaeb1;
+        line-height: 30px;
+    }
+
+    section.container section.sample section.part2:nth-child(2){
+        width: 100%;
+        box-sizing: border-box;
+        background-color: lightblue;
+        padding: 0 !important;
+        display: flex;
+        flex-flow: row wrap;
+
+
+    }
+    section.container section.sample section.part2:nth-child(2) section.productSample{
+        margin: 0 !important;
+        padding: 0 !important;
+        width: 50%;
+        display: flex;
+        flex-flow: row-reverse wrap;
+        position: relative;
+        /*transform: scale(0,0);*/
+        /* transition: all 0.3s ease;*/
+
+    }
+    section.container section.sample section.part2:nth-child(2) section.productSample img:nth-child(1){
+        width: 100%;
+        height: 230px;
+        cursor: pointer;
+
+    }
+    section.container section.sample section.part2:nth-child(2) section.productSample section.imgHover:nth-child(2){
+        position: absolute;
+        top: 0;
+        left:0;
+        background-color: #239891;
+        z-index: 1;
+        width: 100%;
+        height: 220px;
+        text-align: center;
+        box-sizing: border-box;
+        padding: 20px;
+        transform: scale(0,0);
+        transition:all 0.3s ease;
+    }
+    section.container section.sample section.part2:nth-child(2) section.productSample:hover section.imgHover:nth-child(2){
+        transform: scale(1,1);
+    }
+    section.container section.sample section.part2:nth-child(2) section.productSample section.imgHover:nth-child(2)>h2:nth-child(1){
+        font-family: MyriadArabic;
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+
+
+    }
+    section.container section.sample section.part2:nth-child(2) section.productSample section.imgHover:nth-child(2)>p:nth-child(2){
+        font-family: MyriadArabic;
+        font-size: 10px;
+        color: white;
+        line-height: 18px;
+    }
+    /******************** End Sample*********************/
+
+    /******************** Make contact*********************/
+    section.container section.contact{
+        width: 100%;
+        text-align: center;
+    }
+
+    section.container section.contact section.part1{
+        width:80%;
+        margin: 0 auto;
+    }
+
+    section.container section.contact>section.part1>h1{
+        font-family: MyriadArabic;
+        font-size: 60px;
+        font-weight: bold;
+        color: #02918c;
+        padding-top: 95px;
+    }
+    section.container section.contact>section.part1>h2{
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    section.container section.contact>section.part1>p{
+        font-family: MyriadArabic;
+        font-size: 13px;
+        color: #afb2b4;
+    }
+
+    /**** Make part2 ****/
+    section.container section.contact section.part2{
+        width: 100%;
+        padding:30px 0 30px 0;
+        background-color: #0b0b0b;
+        /*margin: 5px;*/
+
+    }
+
+    section.container section.contact section.part2 form{
+        width: 80%;
+        padding: 10px;
+        box-sizing: border-box;
+        margin: 0 auto;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+
+    }
+
+    section.container section.contact section.part2 form input[type=text]{
+        width: 200px;
+        text-align: center;
+        margin: 20px auto;
+        background-color: transparent;
+        border: none;
+        height: 45px;
+        border-bottom: 2px inset #898989;
+        color: white;
+    }
+    section.container section.contact section.part2 form input[type=text]:focus{
+        outline: none;
+    }
+
+    section.container section.contact section.part2 form input[type=email]{
+        width: 200px;
+        text-align: center;
+        margin: 20px auto;
+        background-color: transparent;
+        border: none;
+        height: 45px;
+        border-bottom: 2px inset #898989;
+        color: white;
+    }
+    section.container section.contact section.part2 form input[type=email]:focus{
+        outline: none;
+    }
+    section.container section.contact section.part2 form textarea:nth-child(3){
+        width: 300px;
+        text-align: center;
+        margin: 20px auto;
+        resize: none;
+        background-color: transparent;
+        border: none;
+        border-bottom: 2px inset #898989;
+        height: 120px;
+        font-size: 20px;
+        color: white;
+    }
+    section.container section.contact section.part2 form textarea:nth-child(3):focus{
+        outline: none;
+    }
+    section.container section.contact section.part2 form input[type=submit]{
+        width: 200px;
+        text-align: center;
+        margin: 0 auto;
+        background-color: #cfc91d;
+        color: #000000;
+        font-family: MyriadArabic;
+        font-size: 20px;
+    }
+
+    /**** End part2 ****/
+    /******************** End contact*********************/
+
+    /******************** Make footer *********************/
+
+    section.container section.footer{
+        width: 100%;
+        height: 70px;
+        background-color: #000000;
+        color: #525252;
+        font-family: MyriadArabic;
+        font-size: 17px;
+        font-weight: bold;
+        text-align: center;
+        line-height: 20px;
+        padding-top:20px ;
+    }
+    /******************** End footer*********************/
+
+}
+
+
